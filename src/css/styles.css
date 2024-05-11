@@ -1,0 +1,49 @@
+:root{
+    --hue:194;
+    --bg-color:hsl(var(--hue),0%,100%,1);
+    --text-color:hsla(var(--hue),6%, 21%, 1);
+    --controls-bg-color:hsla(var(--hue), 9%, 89%, 1);
+    
+}
+
+html.forest{}
+
+html.rain{}
+
+html.cafe{}
+
+html.fireplace{}
+
+body{
+    display: grid;
+    place-content: center;
+    height: 100vh;
+}
+
+
+main{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    gap: 2rem;
+}
+
+main span{
+    font-size: 6rem;
+}
+
+
+
+#themes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    width: 40%;
+    gap: 1rem;
+}
+
+#themes button {
+    width: 40%;
+}
