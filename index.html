@@ -15,14 +15,14 @@
 <body>
     <main>
         <section id="time">
-            <span>25</span>
+            <span id="minutes">25</span>
             <span>:</span>
-            <span>00</span>
-            <div class="controls">
-                <button class="ph ph-play-circle"></button >
-                <button class="ph ph-stop-circle"></button >
-                <button class="ph ph-plus"></button >
-                <button class="ph ph-minus"></button >
+            <span id="seconds">00</span>
+            <div id="controls">
+                <button data-action = "startRunning" class="ph ph-play-circle"></button >
+                <button data-action = "stopTimer"   class="ph ph-stop-circle"></button >
+                <button data-action = "addMinutes"   class="ph ph-plus"></button >
+                <button data-action = "reduceMinutes"   class="ph ph-minus"></button >
             </div>
         </section>
         <section id="themes">
