@@ -19,11 +19,13 @@ body{
     display: grid;
     place-content: center;
     height: 100vh;
+    width: 100vw;
+    background-color: var(--bg-color);
 }
 
 
 main{
-    width: 100%;
+    max-width: 80vw;
     margin: auto;
     text-align: center;
     background-color: var(--bg-color);
@@ -36,8 +38,10 @@ main span{
 
 }
 
+
+
 #controls{
-    width: 100%;
+    max-width: 80%;
     display: flex;
     gap: 1rem;
 }
@@ -54,22 +58,22 @@ main span{
 #themes {
     position: absolute;
     display: flex;
+    right: 15%;
     top: 5%;
-    width: 80%;
-    justify-content: space-between;
+    width: 70vw;
+    justify-content: center;
     gap: 1rem;
 
 }
 
 #themes button {
-  width: calc(50% - 0.5rem);
   background-color: var(--controls-bg-color); 
   padding: 1.5rem;
   border-radius: 2.4rem;
 }
     
 #themes button img {
-    width: 100%;
+    width: fit-content;
     background-color: var(--controls-bg-color);
     background: none;
   }
