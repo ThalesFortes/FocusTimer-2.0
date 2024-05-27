@@ -14,7 +14,7 @@ export function counterControls(){
     targetElement.classList.add('flash');
     setTimeout(() => {
       targetElement.classList.remove('flash');
-    }, 300);
+    }, 600);
   }
 
   actions[action]();
