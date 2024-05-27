@@ -56,10 +56,13 @@ main span{
     color: var(--text-color);
 }
 
-.running .ph-play-circle::before{
+.running .ph-play-circle::before {
     color: var(--button-secondary);
 }
 
+.stop .ph-stop-circle::before {
+    color: var(--button-secondary);
+}
 
 
 #themes {
