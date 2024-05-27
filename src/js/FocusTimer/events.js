@@ -7,6 +7,16 @@ export function counterControls(){
         if (typeof  actions[action] != 'function'){
             return
         }
-        actions[action]()
-  })
+
+  if (action === 'addMinutes' || action === 'reduceMinutes') {
+    const targetElement = event.target;
+
+    targetElement.classList.add('flash');
+    setTimeout(() => {
+      targetElement.classList.remove('flash');
+    }, 300);
+  }
+
+  actions[action]();
+});
 }

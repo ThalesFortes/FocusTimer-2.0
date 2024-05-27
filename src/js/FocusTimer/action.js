@@ -16,12 +16,23 @@ export function stopTimer(){
 
 
 export function addMinutes(){
-    console.log('addMinutes')
+    state.minutes += 5
+    if (state.minutes > 60){
+        state.minutes = 60
+        return
+    } 
+    timer.updateDisplay(state.minutes,0)
 }
 
 
 export function reduceMinutes(){
-    console.log('reduceMinutes')
+    state.minutes -= 5
+    if (state.minutes < 0){
+        state.minutes = 0
+        return
+    } 
+    timer.updateDisplay(state.minutes,0)
+    console.log('click')
 }
 
 

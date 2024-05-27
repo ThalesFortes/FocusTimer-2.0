@@ -9,14 +9,14 @@ export function updateDisplay(minutes, seconds){
     el.minutes.textContent = String(minutes).padStart(2,'0')
     el.seconds.textContent = String(seconds).padStart(2,'0')
 
-}
 
+}
 
 
 export function countdow(){
     clearTimeout(state.countdownId)   
      
-    if (state.isRunning === false){
+    if (!state.isRunning){
         return
     } 
 
@@ -31,6 +31,7 @@ export function countdow(){
 
     if (minutes < 0){
         finish.play()
+        document.documentElement.classList.remove('running')
         return
     }
 
@@ -38,6 +39,8 @@ export function countdow(){
 
     state.countdownId = setTimeout(() => countdow(), 1000)
 
-
 }
+
+
+
 

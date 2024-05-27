@@ -54,6 +54,7 @@ main span{
     gap: 4rem;
     font-size: 9rem;
     color: var(--text-color);
+    cursor: pointer;
 }
 
 .running .ph-play-circle::before {
@@ -81,6 +82,7 @@ main span{
   background-color: var(--controls-bg-color); 
   padding: 1.5rem;
   border-radius: 2.4rem;
+  cursor: pointer;
 }
     
 #themes button img {
@@ -88,3 +90,21 @@ main span{
     background-color: var(--controls-bg-color);
     background: none;
   }
+
+
+
+
+.flash{
+    animation: flash 1s infinite;
+}
+
+@keyframes flash {
+    0%, 100% {
+      color: inherit; /* cor inicial e final */
+    }
+    50% {
+      color: var(--button-secondary);; /* cor de piscar */
+    }
+  }
+  
+  
