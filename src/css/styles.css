@@ -3,6 +3,9 @@
     --bg-color:hsl(var(--hue),0%,100%,1);
     --text-color:hsla(var(--hue),6%, 21%, 1);
     --controls-bg-color:hsla(var(--hue), 9%, 89%, 1);
+    --button-secondary:hsl(var(--hue), 100%, 63%);;
+
+    font-size: clamp(40%, 1% + 2vw, 100%);
 }
 
 /*
@@ -32,7 +35,7 @@ main{
 }
 
 main span{
-    font-size: 12rem;
+    font-size: 14rem;
     position: block;
     color: var(--text-color);
 
@@ -49,8 +52,12 @@ main span{
 #controls button{
     background: none;
     gap: 4rem;
-    font-size: 7rem;
+    font-size: 9rem;
     color: var(--text-color);
+}
+
+.running .ph-play-circle::before{
+    color: var(--button-secondary);
 }
 
 
@@ -63,6 +70,7 @@ main span{
     width: 70vw;
     justify-content: center;
     gap: 1rem;
+    margin: auto;
 
 }
 

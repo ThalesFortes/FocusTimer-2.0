@@ -1,5 +1,10 @@
+import * as timer from "./timer.js"
+import state from "./state.js"
+
 export function startRunning(){
- console.log('startRunning')
+    document.documentElement.classList.toggle('running')
+    state.isRunning = !state.isRunning
+    timer.countdow()
 }
 
 export function stopTimer(){
