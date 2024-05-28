@@ -12,7 +12,6 @@ export function updateDisplay(minutes, seconds){
 
 }
 
-
 export function countdow(){
     clearTimeout(state.countdownId)   
      

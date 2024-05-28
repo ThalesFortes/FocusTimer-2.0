@@ -82,12 +82,13 @@ main span{
   background-color: var(--controls-bg-color); 
   padding: 1.5rem;
   border-radius: 2.4rem;
+  width: fit-content;
   cursor: pointer;
+  margin: 0;
 }
     
 #themes button img {
     width: fit-content;
-    background-color: var(--controls-bg-color);
     background: none;
   }
 
