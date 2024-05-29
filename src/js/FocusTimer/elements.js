@@ -6,4 +6,4 @@ export const seconds = document.getElementById("seconds")
 
 export const themes = document.getElementById("themes")
 
-export const forest = document.querySelector(".forest")
+
