@@ -4,6 +4,7 @@ import state from "./state.js";
 
 export function toggleMode() {
   let activeTheme = false; // Monitora o tema atualmente ativo
+  
 
   el.themes.addEventListener('click', (event) => {
     let clickedTheme = event.target.classList.contains('forest') ? 'forest' :

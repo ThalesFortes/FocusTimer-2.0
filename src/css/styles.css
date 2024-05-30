@@ -31,6 +31,18 @@ main span{
 
 }
 
+.sr-only{
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    font-size: 5px;
+
+    overflow: hidden;
+    margin: -1px;
+    padding: 0px;
+    border: none;
+    appearance: none;
+}
 
 
 #controls{

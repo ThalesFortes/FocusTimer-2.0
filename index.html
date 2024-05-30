@@ -23,18 +23,34 @@
             <span>:</span>
             <span id="seconds">00</span>
             <div id="controls">
-                <button data-action = "startRunning" class="ph ph-play-circle"></button >
-                <!--<button data-action = "toggleRunning" class="ph ph-pause-circle"></button>-->
-                <button data-action = "stopTimer"   class="ph ph-stop-circle"></button >
-                <button data-action = "addMinutes"   class="ph ph-plus"></button >
-                <button data-action = "reduceMinutes"   class="ph ph-minus"></button >
+                <button data-action = "startRunning" class="ph ph-play-circle">
+                    <span class="sr-only">Iniciar contador</span>
+                </button >
+                <button data-action = "stopTimer"   class="ph ph-stop-circle">
+                    <span class="sr-only">Pausar contador</span>
+                </button >
+                <button data-action = "addMinutes"   class="ph ph-plus">
+                    <span class="sr-only">Acrescenta cinco minutos no contador</span>
+                </button >
+                <button data-action = "reduceMinutes"   class="ph ph-minus">
+                    <span class="sr-only">Diminuir cinco minutos no contador</span>
+                </button >
             </div>
         </section>
         <section id="themes">
-            <button class="forest"><img src="./src/assets/forest.svg" alt="Mudar para o tema de floresta"  class="forest"></button>
-            <button class="rain"><img src="./src/assets/rain.svg" alt="Mudar para o tema de chuva" class="rain"></button>
-            <button class="cafet"><img src="./src/assets/cafet.svg" alt="Mudar para o tema de cafeteria" class="cafet"></button>
-            <button class="fireplace"><img src="./src/assets/fireplace.svg" alt="Mudar para o tema de lareira" class="fireplace"></button>
+            <span class="sr-only">Alterar temas floresta,chuva,cafeteria e lareira</span>
+            <button class="forest"><img src="./src/assets/forest.svg" alt="Mudar para o tema de floresta"  class="forest">
+                <span class="sr-only">Alterar para tema de floresta</span>
+            </button>
+            <button class="rain"><img src="./src/assets/rain.svg" alt="Mudar para o tema de chuva" class="rain">
+                <span class="sr-only">Alterar para tema de chuva</span>
+            </button>
+            <button class="cafet"><img src="./src/assets/cafet.svg" alt="Mudar para o tema de cafeteria" class="cafet">
+                <span class="sr-only">Alterar para tema de cafeteria</span>
+            </button>
+            <button class="fireplace"><img src="./src/assets/fireplace.svg" alt="Mudar para o tema de lareira" class="fireplace">
+                <span class="sr-only">Alterar para tema de lareira</span>
+            </button>
         </section>
     </main>
 </body>
