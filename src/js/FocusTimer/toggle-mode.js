@@ -2,8 +2,8 @@ import * as el from "./elements.js";
 import * as sounds from "./sounds.js";
 import state from "./state.js";
 
-export function forest() {
-  let activeTheme = false; // Track the currently active theme
+export function toggleMode() {
+  let activeTheme = false; // Monitora o tema atualmente ativo
 
   el.themes.addEventListener('click', (event) => {
     let clickedTheme = event.target.classList.contains('forest') ? 'forest' :
@@ -14,30 +14,28 @@ export function forest() {
     if (clickedTheme === activeTheme){
         document.documentElement.classList.remove(clickedTheme);
         if (activeTheme) {
-            sounds[activeTheme].pause(); // Pause the sound
-            state[activeTheme + 'Sound'] = false; // Update sound state
+            sounds[activeTheme].pause(); // Pausa o som
+            state[activeTheme + 'Sound'] = false; // Atualiza o estado do som
         }
         activeTheme = null
 
     } else{
-        if (clickedTheme) { // Handle only valid themes
+        if (clickedTheme) { // Manipula apenas temas válidos
             
-        // Stop the sound of the previously active theme (if any)
+        // Para o som do tema anteriormente ativo (se houver)
         if (activeTheme) {
-            sounds[activeTheme].pause(); // Pause the sound
-            state[activeTheme + 'Sound'] = false; // Update sound state
+            sounds[activeTheme].pause();// Pausa o som
+            state[activeTheme + 'Sound'] = false; // Atualiza o estado do som
         }
 
-        // Update active theme, classes, and sound state/playback
+        // Atualiza tema ativo, classes e estado/reprodução do som
         activeTheme = clickedTheme;
 
-        // Remove all existing themes before applying the new one
+        // Remove todas as classes de tema existentes antes de aplicar a nova
         document.documentElement.classList.remove(...document.documentElement.classList);
         document.documentElement.classList.add(clickedTheme);
-        
-        
 
-        sounds.click.play(); // Play click sound for selection
+        sounds.click.play(); // Toca o som de clique para seleção
 
         state[clickedTheme + 'Sound'] = !state[clickedTheme + 'Sound'];
         sounds[clickedTheme].loop = true;
