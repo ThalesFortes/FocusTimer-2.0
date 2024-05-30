@@ -3,5 +3,9 @@ export default{
     seconds:6,
     isRunning:false,
     isStop:false,
-    countdownId:null
+    countdownId:null,
+    forestSound:false,
+    rainSound:false,
+    cafetSound:false,
+    fireplaceSound:false,
 }
