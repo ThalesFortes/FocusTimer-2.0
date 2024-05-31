@@ -1,0 +1,192 @@
+
+@media (min-width: 560px ) and (max-width: 750px){
+    #themes {
+        position: static;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        width: 50vw;
+      }
+
+      #themes button {
+        width: 8rem;
+        height: 10rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      #themes button img {
+        transform: scale(1.5);
+      }
+      
+
+
+    main{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        place-content: center;
+        place-items: center;
+        column-gap: 1rem;
+        margin: auto;
+    }
+
+    main span{
+        font-size: 8rem;
+        max-width: 50vw;
+    }
+
+    #controls{
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        max-width: 50vw;
+    }
+
+    #controls button{
+        font-size: 4rem;
+    }
+}
+
+@media (min-width: 750px) and (max-width: 1159px) {
+    #themes {
+        position: static;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 40vw;
+      }
+
+      #themes button {
+        width: 9rem;
+        height: 12.4rem;
+      }
+      
+      #themes button img {
+        transform: scale(1.5);
+    }
+      
+
+    main{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        place-content: center;
+        place-items: center;
+        column-gap: 1rem;
+    }
+
+    main span{
+        font-size: 9rem;
+        max-width: 60vw;
+    }
+
+    #controls{
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        max-width: 60vw;
+    }
+
+    #controls button{
+        font-size: 5rem;
+    }
+}
+
+
+@media (min-width: 1160px) and (max-width: 1329px) {
+    #themes {
+        position: static;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 30vw;
+      }
+
+      #themes button {
+        width: 10rem;
+        height: 12.4rem;
+      }
+      
+      #themes button img {
+        transform: scale(1.5);
+    }
+      
+
+    main{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        place-content: center;
+        place-items: center;
+        column-gap: 1rem;
+    }
+
+    main span{
+        font-size: 10rem;
+        max-width: 70vw;
+    }
+
+    #controls{
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        max-width: 70vw;
+    }
+
+    #controls button{
+        font-size: 5rem;
+    }
+}
+
+
+@media (min-width: 1330px) {
+    #themes {
+        position: static;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 30vw;
+      }
+
+      #themes button {
+        width: 12rem;
+        height: 14.4rem;
+      }
+      
+      #themes button img {
+        transform: scale(1.8);
+    }
+      
+
+    main{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        place-content: center;
+        place-items: center;
+        column-gap: 1rem;
+    }
+
+    main span{
+        font-size: 12rem;
+        max-width: 70vw;
+    }
+
+    #controls{
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        max-width: 70vw;
+    }
+
+    #controls button{
+        font-size: 6rem;
+    }
+}

@@ -8,7 +8,7 @@ html.rain{
 }
 
 
-.rain #themes button:nth-child(2) {
+.rain #themes button:nth-child(3) {
     background-color: var(--press-button); 
     box-shadow: 1px 1px 1px 1px black, /* Sombra preta */
         0 0 10px rgba(0, 0, 0, 0.5), /* Sombra verde */
