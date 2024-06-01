@@ -33,7 +33,7 @@ export function toggleMode() {
             activeTheme = clickedTheme;
 
             // Remove todas as classes de tema existentes antes de aplicar a nova
-            document.documentElement.classList.remove(...document.documentElement.classList);
+            document.documentElement.classList.remove(...Array.from(document.documentElement.classList).filter(className => className !== 'running' && className !== 'stop'));
             document.documentElement.classList.add(clickedTheme);
     
 
