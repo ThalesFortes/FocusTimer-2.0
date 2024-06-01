@@ -16,3 +16,12 @@ html.rain{
         inset 0 0 10px var(--press-button); /* Sombra interna verde */
 }
 
+
+#themes button:nth-child(3):hover {
+    transform: scale(1.05);
+    background-color: hsl(220, 100%, 70%);
+    box-shadow: 1px 1px 1px 1px black, /* Sombra preta */
+        0 0 10px rgba(0, 0, 0, 0.5), /* Sombra verde */
+        inset 0 0 10px rgba(0, 0, 0, 0.5), /* Sombra interna preta */
+        inset 0 0 10px hsl(220, 100%, 70%)
+}
