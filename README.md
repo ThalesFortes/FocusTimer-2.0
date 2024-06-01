@@ -28,36 +28,36 @@ O projeto foi desenvolvido para exercitar e práticar tudo que venho aprendendo 
 ## Layout web
 
 ###  standard Mode
-![Web 1](https://github.com/ThalesFortes/FocusTimer/blob/main/src/images/Darkmode-Web.png)
+![Web 1](https://github.com/ThalesFortes/FocusTimer-2.0/blob/main/src/printThemes/padrao.png)
 
 ###   florest Mode
-![Web 1](https://github.com/ThalesFortes/FocusTimer/blob/main/src/images/WhiteMode-Web.png)
+![Web 1](https://github.com/ThalesFortes/FocusTimer-2.0/blob/main/src/printThemes/florest.png)
 
 ###  rain Mode
-![Web 1](https://github.com/ThalesFortes/FocusTimer/blob/main/src/images/Darkmode-Web.png)
+![Web 1](https://github.com/ThalesFortes/FocusTimer-2.0/blob/main/src/printThemes/rain.png)
 
 ###   cafet Mode
-![Web 1](https://github.com/ThalesFortes/FocusTimer/blob/main/src/images/WhiteMode-Web.png)
+![Web 1](https://github.com/ThalesFortes/FocusTimer-2.0/blob/main/src/printThemes/cafet.png)
 
 ###  fireplace Mode
-![Web 1](https://github.com/ThalesFortes/FocusTimer/blob/main/src/images/Darkmode-Web.png)
+![Web 1](https://github.com/ThalesFortes/FocusTimer-2.0/blob/main/src/printThemes/fireplaceMobile.png)
 
 ## Layout mobile
 
 ###  standard Mode
-![Web 1](https://github.com/ThalesFortes/FocusTimer/blob/main/src/images/Darkmode-Web.png)
+![Web 1](https://github.com/ThalesFortes/FocusTimer-2.0/blob/main/src/printThemes/padraoMobile.png)
 
 ###   florest Mode
-![Web 1](https://github.com/ThalesFortes/FocusTimer/blob/main/src/images/WhiteMode-Web.png)
+![Web 1](https://github.com/ThalesFortes/FocusTimer-2.0/blob/main/src/printThemes/florestMobile.png)
 
 ###  rain Mode
-![Web 1](https://github.com/ThalesFortes/FocusTimer/blob/main/src/images/Darkmode-Web.png)
+![Web 1](https://github.com/ThalesFortes/FocusTimer-2.0/blob/main/src/printThemes/rainMobile.png)
 
 ###   cafet Mode
-![Web 1](https://github.com/ThalesFortes/FocusTimer/blob/main/src/images/WhiteMode-Web.png)
+![Web 1](https://github.com/ThalesFortes/FocusTimer-2.0/blob/main/src/printThemes/cafetMobile.png)
 
 ###  fireplace Mode
-![Web 1](https://github.com/ThalesFortes/FocusTimer/blob/main/src/images/Darkmode-Web.png)
+![Web 1](https://github.com/ThalesFortes/FocusTimer-2.0/blob/main/src/printThemes/fireplaceMobile.png)
 
 # Tecnologias utilizadas
 
