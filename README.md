@@ -68,7 +68,7 @@ O projeto foi desenvolvido para exercitar e práticar tudo que venho aprendendo 
 ## Back-end
 - JavaScript
 
-[Clique aqui para acessar](https://thalesfortes.github.io/FocusTimer/)
+[Clique aqui para acessar](https://thalesfortes.github.io/FocusTimer-2.0/)
 Som funcionando corretamente, basta baixar o projeto para ver.
 
 # Autor
