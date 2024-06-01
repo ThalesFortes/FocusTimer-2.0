@@ -16,3 +16,10 @@ html.cafet{
         inset 0 0 10px var(--press-button); /* Sombra interna verde */
 }
 
+.cafet #themes button:nth-child(4){
+    background-color: var(--press-button); 
+    box-shadow: 1px 1px 1px 1px black, /* Sombra preta */
+        0 0 10px rgba(0, 0, 0, 0.5), /* Sombra verde */
+        inset 0 0 10px rgba(0, 0, 0, 0.5), /* Sombra interna preta */
+        inset 0 0 10px var(--press-button); /* Sombra interna verde */
+}
