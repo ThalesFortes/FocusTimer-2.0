@@ -40,7 +40,7 @@ O projeto foi desenvolvido para exercitar e práticar tudo que venho aprendendo 
 ![Web 1](https://github.com/ThalesFortes/FocusTimer-2.0/blob/main/src/printThemes/cafet.png)
 
 ###  fireplace Mode
-![Web 1](https://github.com/ThalesFortes/FocusTimer-2.0/blob/main/src/printThemes/fireplaceMobile.png)
+![Web 1](https://github.com/ThalesFortes/FocusTimer-2.0/blob/main/src/printThemes/fireplace.png)
 
 ## Layout mobile
 
